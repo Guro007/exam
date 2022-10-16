@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(27, 27, 66);
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+
+.content{
+    display: flex;
+    width: 900px;
+   
+}
+
+
+.content h1{
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+   
+}
+
+.content  h1 span{
+    color: rgb(158, 35, 158);
+    font-weight: 700;
+}
+
+.head{
+    padding: 3rem;
+    
+    
+}
+
+
+.head p{
+    padding-top: 30px;
+    font-size: small;
+    color: rgb(172, 175, 175);
+}
+.content ul li{
+    font-weight: 900;
+    color: white;
+    font-size: large;
+}
+
+.content span{
+    color: rgb(172, 175, 175);
+    font-weight: 100;
+    padding: 2px;
+}
+
+.list ul{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list ul li{
+    display: grid;
+}
+
+.text{
+    display: flex;
+    margin: 20px;
+    background-color: rgb(49, 49, 88);
+    border-radius: 10px;
+}
+
+.picture img{
+    width: 450px;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+    
+}
+
+
+
+
+
+
+/*media*/
+
+
+    
+
+
+
+@media screen and (max-width: 700px) {
+    body{
+        background-color: rgb(27, 27, 66);
+    }
+    
+    .cover{
+        display: none;
+    }
+    .text .picture img{
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+        
+    }
+
+    .picture{
+        height: 100%;
+        order: -1;
+    }
+
+    .text{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    
+    .content{
+        
+        display: block;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        background-color: rgb(32, 32, 97);
+        border-radius: 10px;
+        height: 100%;
+        
+    }
+    
+    .content  h1{
+        padding: 20px;
+        font-size: 25px;
+        font-weight: 800;
+        color: white;
+        display: block;
+    }
+    .content  h1 span{
+        color: rgb(158, 35, 158);
+        font-weight: 700;
+    }
+    .content  p{
+        font-size: small;
+        padding: 2px;
+        color: rgb(172, 175, 175);
+        display: block;
+        
+    }
+    
+
+    .list{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .content .list ul{
+        padding: 25px;
+        display: block;
+    }
+    .content ul li{
+        display: grid;
+        padding: 10px;
+        font-weight: 900;
+        color: white;
+        font-size: large;
+    }
+    
+    .content span{
+        color: rgb(172, 175, 175);
+        font-weight: 100;
+        padding: 2px;
+    }
+    .container{
+        margin: 50px 10px;
+        padding: 20px;
+        height:100%;
+        
+    }
+    
+}

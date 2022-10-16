@@ -1,0 +1,305 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 4rem;
+    margin: 4rem;
+    
+}
+
+
+.first{
+   background-color: hsl(31, 77%, 52%);
+   padding: 2rem;
+   width: 250px;
+   border-radius: 10px 0px 0px 10px;
+   
+}
+.first h1{
+    padding-top: 30px;
+    color: hsl(0, 0%, 95%);
+}
+
+.first p{
+    padding-top: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 22px;
+    
+}
+
+.first .btn1{
+    padding-top: 50px;
+    
+}
+
+.btn1 button{
+    border-radius: 50px;
+    border: 1px solid white;
+    height: 50px;
+    width: 150px;
+    background-color:white;
+    color: hsl(31, 77%, 52%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn1 button:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+
+}
+
+
+
+
+
+.second{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2rem;
+    width: 250px;
+    
+ }
+ .second h1{
+     padding-top: 30px;
+     color: hsl(0, 0%, 95%);
+ }
+ 
+ .second p{
+     padding-top: 30px;
+     color: hsla(0, 0%, 100%, 0.75);
+     font-size: 15px;
+     font-weight: 100;
+     line-height: 22px;
+     
+ }
+ 
+ .second .btn2{
+     padding-top: 50px;
+     
+ }
+ 
+ .btn2 button{
+     border-radius: 50px;
+     border: 1px solid white;
+     height: 50px;
+     width: 150px;
+     background-color: white;
+     color: hsl(184, 100%, 22%);
+     cursor: pointer;
+     transition: 0.5s;
+ }
+ 
+ .btn2 button:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+ }
+
+
+
+
+.third{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2rem;
+    width: 250px;
+    border-radius: 0px 10px 10px 0px;
+    
+ }
+ .third h1{
+     padding-top: 30px;
+     color: hsl(0, 0%, 95%);
+ }
+ 
+ .third p{
+     padding-top: 30px;
+     color: hsla(0, 0%, 100%, 0.75);
+     font-size: 15px;
+     font-weight: 100;
+     line-height: 22px;
+     
+ }
+ 
+ .third .btn3{
+     padding-top: 50px;
+     
+     
+ }
+ 
+ .btn3 button{
+     border-radius: 50px;
+     border: 1px solid white;
+     height: 50px;
+     width: 150px;
+     background-color: white;
+     color: hsl(179, 100%, 13%);
+     cursor: pointer;
+     transition: 0.5s;
+ }
+
+ .btn3 button:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+ }
+
+
+
+ @media screen and (max-width:700px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        background-color: aliceblue;
+    }
+
+    .content{
+        
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        
+    }
+    .first{
+        background-color: hsl(31, 77%, 52%);
+        padding: 2rem;
+        width: 100%;
+        height:420px;
+        border-radius: 10px 10px 0px 0px;
+        
+     }
+     .first h1{
+        padding-top: 30px;
+        color: hsl(0, 0%, 95%);
+    }
+    
+    .first p{
+        padding-top: 20px;
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: 15px;
+        font-weight: 100;
+        line-height: 22px;
+        
+    }
+    
+    .first .btn1{
+        padding-top: 50px;
+        
+    }
+    
+    .btn1 button{
+        border-radius: 50px;
+        border: 1px solid white;
+        height: 50px;
+        width: 150px;
+        background-color:white;
+        color: hsl(31, 77%, 52%);
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    .btn1 button:hover{
+        background-color: hsl(31, 77%, 52%);
+        color: white;
+    
+    }
+
+    .second{
+        background-color: hsl(184, 100%, 22%);
+        padding: 2rem;
+        width: 100%;
+        height: 420px;
+        border-radius: 0px 0px 0px 0px;
+        
+     }
+     .second h1{
+         padding-top: 30px;
+         color: hsl(0, 0%, 95%);
+     }
+     
+     .second p{
+         padding-top: 30px;
+         color: hsla(0, 0%, 100%, 0.75);
+         font-size: 15px;
+         font-weight: 100;
+         line-height: 22px;
+         
+     }
+     
+     .second .btn2{
+         padding-top: 50px;
+         
+     }
+     
+     .btn2 button{
+         border-radius: 50px;
+         border: 1px solid white;
+         height: 50px;
+         width: 150px;
+         background-color: white;
+         color: hsl(184, 100%, 22%);
+         cursor: pointer;
+         transition: 0.5s;
+     }
+     
+     .btn2 button:hover{
+        background-color: hsl(184, 100%, 22%);
+        color: white;
+     }
+
+     .third{
+        background-color: hsl(179, 100%, 13%);
+        padding: 2rem;
+        width: 100%;
+        height: 420px;
+        border-radius: 0px 0px 10px 10px;
+        
+     }
+     .third h1{
+         padding-top: 30px;
+         color: hsl(0, 0%, 95%);
+     }
+     
+     .third p{
+         padding-top: 30px;
+         color: hsla(0, 0%, 100%, 0.75);
+         font-size: 15px;
+         font-weight: 100;
+         line-height: 22px;
+         
+     }
+     
+     .third .btn3{
+         padding-top: 50px;
+         
+         
+     }
+     
+     .btn3 button{
+         border-radius: 50px;
+         border: 1px solid white;
+         height: 50px;
+         width: 150px;
+         background-color: white;
+         color: hsl(179, 100%, 13%);
+         cursor: pointer;
+         transition: 0.5s;
+     }
+    
+     .btn3 button:hover{
+        background-color: hsl(179, 100%, 13%);
+        color: white;
+     }
+ }
