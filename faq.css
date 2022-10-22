@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:blueviolet;
+}
+.content{
+    margin: 100px 20px;
+    text-align: center;
+    background-color: aliceblue;
+    height: 100%;
+    border-radius: 20px;
+    background-image: url(images11/bg-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 1% ; 
+}
+
+.img{
+    width:200px;
+    position: relative;
+    bottom: 90px;
+    
+}
+
+.desktop{
+    display: none;
+}
+
+.content ul img{
+    cursor: pointer;
+}
+
+.first{
+    border-bottom: 1px solid rgb(196, 193, 193);
+    padding: 20px;
+    font-size: 12px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.first h3{
+    color: grey;
+}
+
+.questions ul{
+    list-style: none;
+    padding-top: 10px;
+}
+
+.questions ul li h3 img{
+    float: right;
+}
+
+.answer h4{
+    display: none;
+}
+
+.first:hover .answer h4{
+    display: block;
+    font-weight: 100;
+    color: grey;
+}
+
+.first h3:hover{
+    color: black;
+}
+.box{
+    display: none;
+}
+
+@media screen and (min-width:821px) {
+
+  
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .content{
+        
+        background-color: aliceblue;
+        height: 400px;
+        width: 700px;
+        border-radius: 20px;
+        display: flex;
+        background-image: url(images11/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: 275% 70%;
+        
+    }
+
+    .content h1{
+        font-size: 20px;
+        text-align: start;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+
+    .questions{
+        
+        padding-top: 60px;
+    }
+
+    .first{
+        padding: 10px;
+
+    }
+    .img{
+        display: none;
+    }
+    .desktop{
+        width: 280px;
+        height: 200px;
+        position: relative;
+        top: 90px;
+        right: 60px;
+        display: block;
+    }
+    .questions ul li h3 img{
+        margin-left: 30px;
+    }
+
+    .first h3{
+        text-align: start;
+    }
+
+
+    .first:hover .answer h4{
+        display: none;
+        
+    }
+    
+    .first:active .answer h4{
+        display: block;
+        
+    }
+    
+    .first h3:active{
+        color: rgb(218, 9, 9);
+    }
+}    
