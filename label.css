@@ -1,0 +1,308 @@
+@media screen and (min-width:426px){
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images13/bg-intro-desktop.png);
+    background-color:rgb(212, 94, 94);
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+}
+
+
+.text{
+    width:400px;
+    margin-right: 0px;
+}    
+
+.text h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    
+}
+
+.text p{
+      color: white;
+      padding-top: 25px;
+}
+
+.label{
+    width:400px;
+    border-radius: 10;
+    height: 100%;
+}
+
+.label h3{
+    padding-bottom: 20px;
+}
+
+.label2{
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    padding: 15px;
+    
+    
+}
+
+.btn button{
+    background-color: rgba(72, 177, 72, 0.952);
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+
+.btn button:active{
+    background-color: rgb(51, 170, 51);
+    cursor: pointer;
+}
+
+.input{
+    padding: 15px;
+}
+
+input[type="email"]{
+    padding: 0 25px;
+} 
+input[type="name"]{
+    padding: 0 25px;
+}
+input[type="last name"]{
+    padding: 0 25px;
+}
+input[type="password"]{
+    padding: 0 25px;
+}
+
+.input input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.label2 p{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 10px;
+    color: grey;
+}
+
+.label2 p span{
+    color: rgb(184, 43, 43);
+    font-weight: 700;
+}
+
+.label article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(67, 67, 185);
+    height: 50px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 900;
+    box-shadow: 10px 15px 25px 1px;
+    color: black;
+    
+}
+
+article h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.text2 h3 span{
+    font-weight: 100;
+     
+}
+
+.text2{
+    padding-bottom: 20px;
+}
+
+
+
+}
+
+@media screen and (max-width:425px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+   
+
+    body{
+        background-image: url(images13/bg-intro-mobile.png);
+        background-color:rgb(212, 94, 94);
+    }
+
+    .container{
+        height: 100%;
+    }
+
+     .content{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 50px;
+     }
+    
+     .label{
+        height: 100%;
+     }
+
+    .text{
+        text-align: center;
+        color: white;
+        padding-top: 60px;
+        margin: 40px auto;
+        width: 100%;
+    }
+
+    .text p{
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    .text2{
+        text-align: center;
+        width: 100%;
+        padding-bottom: 20px;
+        
+    }
+
+    .label article{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(67, 67, 185);
+        height: 50px;
+        width: 100%;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 13px;
+        font-weight: 900;
+        box-shadow: 10px 15px 25px 1px;
+        color: black;
+        
+    }
+
+    .label article h3{
+        color: white;
+    }
+
+    .label article span{
+        font-weight: 100;
+    }
+
+    .label2{
+        background-color: white;
+        padding: 15px;
+        border-radius: 15px;
+        
+        
+    }
+    
+    .btn{
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        padding: 15px;
+        
+        
+    }
+    
+    .btn button{
+        background-color: rgba(72, 177, 72, 0.952);
+        height: 50px;
+        width: 100%;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        font-weight: 700;
+        cursor: pointer;
+        
+    }
+    
+    .btn button:active{
+        background-color: rgb(51, 170, 51);
+        cursor: pointer;
+    }
+    
+    .input{
+        padding: 15px;
+    }
+    
+    input[type="email"]{
+        padding: 0 25px;
+    } 
+    input[type="name"]{
+        padding: 0 25px;
+    }
+    input[type="last name"]{
+        padding: 0 25px;
+    }
+    input[type="password"]{
+        padding: 0 25px;
+    }
+    
+    .input input{
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        border: 1px solid grey;
+    }
+    
+    .label2 p{
+        text-align: center;
+        padding-top: 25px;
+        font-size: 10px;
+        color: grey;
+    }
+    
+    .label2 p span{
+        color: rgb(184, 43, 43);
+        font-weight: 700;
+    }
+
+    
+}
