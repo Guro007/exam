@@ -1,0 +1,360 @@
+@media screen and (min-width:500px) {
+    
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+   padding: 50px;
+}
+
+.content{
+    display: flex;
+    padding: 30px;
+    width: 100%;
+    justify-content: space-between;
+}
+.content img{
+    width: 50px;
+    height: 30px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+ul li:active{
+    color: rgb(228, 54, 54);
+}
+
+
+.first{
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    
+   
+}
+
+.first img{
+    width: 85%;
+    height: 300px;
+}
+
+.text2{
+    width: 100%;
+    display:flex;
+    padding-top: 20px;
+    gap: 80px;
+}
+
+.text2 h1{
+    font-size: 60px;
+    font-weight:bold;
+    color: rgb(24, 24, 24);
+    width: 40%;
+}
+
+
+.text2 p{
+    padding-top: 15px;
+    font-weight: 100;
+    color: grey;
+    line-height: 25px;
+}
+
+.text3 button{
+   margin-top: 30px;
+   height: 40px;
+   width: 150px;
+   background-color: rgb(228, 54, 54);
+   color: white;
+   border: none;
+   cursor: pointer;
+   font-weight: 600;
+   transition: 0.1s;
+}
+
+.text3 button:active{
+    background-color: rgb(16, 16, 32);
+    color: white;
+}
+
+.second{
+    background-color: rgb(16, 16, 32);
+    width: 450px;
+    height: fit-content;
+    
+}
+
+.content3 h1{
+    color: rgb(253, 154, 83);
+}
+
+.content3{
+    width: 100%;
+    padding: 30px;
+}
+.content3 h3{
+    color: white;
+    padding-top: 25px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.content3 h3:active{
+    color: rgb(253, 154, 83);
+}
+.content3 p{
+    padding-top: 10px;
+    color: rgb(177, 169, 169);
+    border-bottom: 1px solid white;
+    padding-bottom: 25px;
+}
+
+.content3 h3:nth-child(4){
+    padding-top: 30px;
+}
+.content3 h3:nth-child(6){
+    padding-top: 30px;
+}
+
+
+.footer2{
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.footer2 img{
+    width: 105px;
+    height: 140px;
+}
+
+.text4{
+    margin-left: 20px;
+    width: 100%;
+    display: flex;
+}
+
+.text4 span{
+    font-size: 35px;
+    color: rgb(170, 166, 166);
+    font-weight: 600;
+}
+
+.text4 h4{
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 15px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.text4 h4:active{
+    color: rgb(211, 29, 29);
+}
+
+.text4 p{
+    padding-top: 15px;
+    color: rgb(170, 166, 166);
+    font-size: 17px;
+}
+
+.info{
+    padding-left: 20px;
+}
+}
+
+@media screen and (max-width:500px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .container{
+        width: 100%;
+    }
+     .content{
+         width: 100%;
+         height: 100%;
+         
+         
+     }
+     .content img{
+         width: 50px;
+         height: 30px;
+         padding: 15px;
+         padding-top: 20px;
+     }
+     
+     ul{
+         display: none;
+         list-style: none;
+     }
+     ul li{
+         display: flex;
+         justify-content: space-between;
+         align-items: flex-end;
+         margin: 10px;
+         cursor: pointer;
+         transition: 0.1s;
+     }
+     ul li:active{
+         color: rgb(228, 54, 54);
+     }
+
+     .text{
+        width:100%;
+     }
+
+
+     .first{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+        
+        
+       
+    }
+    
+    .first img{
+        width: 100%;
+        height: 300px;
+    }
+    
+    .text2{
+        width: 100%;
+        display:grid;
+        padding-top: 20px;
+         
+    }
+    
+    .text2 h1{
+        font-size: 50px;
+        font-weight:bold;
+        color: rgb(24, 24, 24);
+        
+    }
+    
+    
+    .text2 p{
+        padding-top: 15px;
+        font-weight: 100;
+        width: 100%;
+        color: grey;
+        line-height: 25px;
+    }
+
+    .text3{
+        padding-bottom: 50px;
+    }
+    
+    .text3 button{
+       margin-top: 30px;
+       height: 40px;
+       width: 150px;
+       background-color: rgb(228, 54, 54);
+       color: white;
+       border: none;
+       cursor: pointer;
+       font-weight: 600;
+       transition: 0.1s;
+    }
+    
+    .text3 button:active{
+        background-color: rgb(16, 16, 32);
+        color: white;
+    }
+
+    .second{
+        background-color: rgb(16, 16, 32);
+        width: 100%;
+        height: fit-content;
+        
+    }
+
+    .content3 h1{
+        color: rgb(253, 154, 83);
+    }
+    
+    .content3{
+        width: 80%;
+        padding: 20px;
+        
+    }
+    .content3 h3{
+        color: white;
+        padding-top: 25px;
+        cursor: pointer;
+        transition: 0.1s;
+    }
+    
+    .content3 h3:active{
+        color: rgb(253, 154, 83);
+    }
+    .content3 p{
+        padding-top: 10px;
+        color: rgb(177, 169, 169);
+        border-bottom: 1px solid white;
+        padding-bottom: 25px;
+    }
+    
+    .content3 h3:nth-child(4){
+        padding-top: 30px;
+    }
+    .content3 h3:nth-child(6){
+        padding-top: 30px;
+    }
+
+    .footer2{
+        padding: 30px;
+    }
+    .text4{
+        display: flex;
+        padding-top: 20px;
+
+    }
+
+    .text4 span{
+        font-size: 35px;
+        color: rgb(170, 166, 166);
+        font-weight: 600;
+    }
+    
+    .text4 h4{
+        font-size: 22px;
+        font-weight: 700;
+        padding-top: 15px;
+        transition: 0.1s;
+        cursor: pointer;
+    }
+    .text4 h4:active{
+        color: rgb(211, 29, 29);
+    }
+    
+    .text4 p{
+        padding-top: 15px;
+        color: rgb(170, 166, 166);
+        font-size: 17px;
+    }
+    
+    .info{
+        padding-left: 20px;
+    }
+    
+}
