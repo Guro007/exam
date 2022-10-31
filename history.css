@@ -1,0 +1,552 @@
+@media screen and (min-width:600px) {
+    
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    Font-size: 18px;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+}
+
+.head{
+   text-align: center;
+   padding: 130px;
+   background-image: url(images16/bg-header-desktop.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+}
+
+.head h1{
+    font-size: 50px;
+    color:  hsl(210, 10%, 33%);
+    padding-top: 60px;
+    width: 100%;
+}
+
+.head p{
+    color:  hsl(214, 4%, 65%);
+    font-size: 23px;
+    padding: 20px;
+}
+
+.btn{
+    width: 100%;
+}
+.btn button{
+    min-width: 210px;
+    height: 60px;
+    border-radius: 25px;
+    background-color: hsl(171, 66%, 44%);
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px 0px
+}
+.btn button:nth-child(2){
+    background-color:  hsl(233, 100%, 69%);
+}
+
+.btn button a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.btn button:active{
+    background-color: hsl(171, 74%, 52%);
+}
+.btn button:active:nth-child(2){
+    background-color:  hsl(233, 77%, 70%);
+}
+
+
+
+
+/*content*/
+
+
+
+.content{
+    text-align: center;
+    width: 100%;
+}
+.content h1{
+    font-size: 40px;
+    color:hsl(210, 10%, 33%);
+    width: 100%;
+}
+.content p{
+    color:  hsl(214, 4%, 65%);
+    font-size: 17px;
+    padding-top: 10px;
+    line-height: 30px;
+    font-weight: 100;
+}
+
+
+
+/*content2*/
+
+
+
+
+.content2{
+    display: flex;
+    margin-top: 75px;
+}
+
+.content2 img{
+    width: 100%;
+}
+
+.list{
+    text-align: start;
+    padding: 45px;
+    list-style: none;
+}
+.list li{
+    text-align: start;
+    margin: 55px;
+}
+
+.list li h1{
+    font-size: 25px;
+}
+
+
+
+/*content3*/
+
+
+
+.content3{
+    padding-top: 150px;
+}
+
+
+.content3 p{
+    padding-top: 20px;
+    width: 100%;
+}
+
+.content3 img{
+    padding-top: 100px;
+    width: 65%;
+}
+
+
+
+/*content4*/
+
+
+.content4{
+    width: 100%;
+    padding-top: 50px;
+}
+
+.content4 p{
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+.flex{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    gap: 70px;
+}
+
+.flex div{
+    width: 350px;
+}
+
+.flex h1{
+    font-size: 25px;
+    padding: 20px;
+}
+
+.flex p{
+    font-size: 20px;
+}
+
+.flex2{
+    width: 100%;
+}
+
+.flex2 ul{
+    display: flex;
+    padding-top: 150px;
+    justify-content: space-between;
+    list-style: none;
+    padding: 100px;
+    width: 100%;
+}
+
+.flex2 ul li img{
+    width: 100%;
+}
+
+
+
+/*content5*/
+
+.content5 h1{
+    font-size:35px;
+    color:  hsl(210, 10%, 33%);
+    padding-top: 60px;
+    width: 100%;
+}
+
+.content5 p{
+    color:  hsl(214, 4%, 65%);
+    font-size: 23px;
+    padding: 20px;
+}
+
+.btn{
+    width: 100%;
+}
+.btn button{
+    min-width: 210px;
+    height: 60px;
+    border-radius: 25px;
+    background-color: hsl(171, 66%, 44%);
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px 0px
+}
+.btn button:nth-child(2){
+    background-color:  hsl(233, 100%, 69%);
+}
+
+.btn button a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.btn button:active{
+    background-color: hsl(171, 74%, 52%);
+}
+.btn button:active:nth-child(2){
+    background-color:  hsl(233, 77%, 70%);
+}
+
+
+/*footer*/
+
+
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 90px;
+    margin-top: 120px;
+    background-color: rgb(243, 243, 243);
+     
+}
+
+.photo {
+    display: flex;
+    align-items: center;
+}
+
+.photo img{
+    width: 55px;
+    height: 55px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+}
+
+
+.list2{
+    display: contents;
+    gap: 90px;
+    text-align: start;
+    line-height: 50px;
+    
+}
+
+.list2 ul{
+    list-style: none;
+    justify-content: space-between;
+}
+
+.list2 ul li{
+    cursor: pointer;
+    color: hsl(214, 4%, 65%);
+}
+
+.list2 ul li:active{
+    color: hsl(171, 74%, 52%);
+}
+
+
+
+}
+
+
+/*media*/
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        Font-size: 18px;
+        width: 100%;
+    }
+    
+    .container{
+        width: 100%;
+        
+    }
+
+  
+    .head{
+       text-align: center;
+       background-image: url(images16/bg-header-mobile.png);
+       background-size: cover;
+       background-repeat: no-repeat;
+       width: 100%;
+       padding: 20px 30px;
+    }
+
+    .head h1{
+        font-size: 30px;
+        color:  hsl(210, 10%, 33%);
+        padding-top: 60px;
+        width: 100%;
+    }
+    
+    .head p{
+        color:  hsl(214, 4%, 65%);
+        font-size: 18px;
+        padding-top: 20px;
+        width: 100%;
+
+    }
+    
+    .btn{
+        width: 100%;
+    }
+    .btn button{
+        width: 100%;
+        height: 50px;
+        border-radius: 25px;
+        background-color: hsl(171, 66%, 44%);
+        border: none;
+        cursor: pointer;
+        box-shadow: 0px 5px 15px 0px;
+        margin-top: 20px;
+    }
+    .btn button:nth-child(2){
+        background-color:  hsl(233, 100%, 69%);
+    }
+    
+    .btn button a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+    }
+    
+    .btn button:active{
+        background-color: hsl(171, 74%, 52%);
+    }
+    .btn button:active:nth-child(2){
+        background-color:  hsl(233, 77%, 70%);
+    }
+    
+
+
+    /*content*/
+
+
+
+    .content{
+        text-align: center;
+        width: 100%;
+        padding-top: 100px;
+        padding: 20px 30px;
+    }
+    .content h1{
+        font-size: 30px;
+        color:hsl(210, 10%, 33%);
+        width: 100%;
+    }
+    .content p{
+        color:  hsl(214, 4%, 65%);
+        font-size: 17px;
+        padding-top: 10px;
+        line-height: 30px;
+        font-weight: 100;
+    }
+      
+
+
+    /*content2*/
+
+
+
+    .content2{
+        margin-top: 75px;
+        padding: 20px 30px;
+    }
+    
+    .content2 img{
+        width: 100%;
+    }
+    
+    .list{
+        padding: px;
+        list-style: none;
+    }
+    .list li{
+        margin-top: 30px;
+    }
+    
+    .list li h1{
+        font-size: 25px;
+    }
+    
+    
+    /*content3*/
+
+
+    .content3{
+        padding-top: 170px;
+        padding: 20px 30px;
+    }
+    
+
+    .content3 h1{
+        font-size: 30px;
+    }
+    
+    .content3 p{
+        padding-top: 25px;
+        width: 100%;
+    }
+    
+    .content3 img{
+        padding-top: 45px;
+        width: 100%;
+    }
+    
+
+
+    /*content4*/
+
+
+
+    .content4 {
+        padding-top: 100px;
+        padding: 20px 30px;
+    }
+    
+
+    .content4 h1{
+        font-size: 30px;
+    }
+    
+
+    .content4 div{
+        padding-top: 50px;
+    }
+
+    .flex2 ul{
+        padding-top: 50px;
+    }
+
+    .flex2 ul li{
+        padding-top: 60px;
+        list-style: none;
+    }
+
+
+
+
+    /*content5*/
+
+
+
+    .content5{
+        padding-top: 250px;
+        padding: 20px 30px;
+    }
+
+    .content5 h1{
+        font-size: 30px;
+    }
+
+    .content5 p{
+        padding-top: 10px;
+        line-height: 25px;
+    }
+
+    .btn{
+        padding-top: 30px;
+    }
+
+    .btn button{
+        height: 50px;
+    }
+
+
+
+
+    /*footer*/
+
+
+
+    
+    .footer{
+        margin-top: 150px;
+        background-color: rgb(243, 243, 243);
+        text-align: center;
+    }
+
+    .photo img{
+        width: 50px;
+        height: 50px;
+        margin-top: 40px;
+    }
+
+    .list2 ul li{
+        padding-top: 40px;
+        list-style: none;
+        color: hsl(214, 4%, 65%);
+    }
+
+    .icons{
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+         
+    }
+}
