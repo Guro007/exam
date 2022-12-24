@@ -1,0 +1,458 @@
+@media screen and (max-width:760px) {
+    
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+   width: 100%;
+   background-color: rgb(197, 186, 186);
+}
+
+.header{
+	padding: 25px;
+	height: 65px;
+	width: 100%;
+}
+
+.header button{
+    display: none;
+}
+
+.sidebar li span{
+      margin: 0px 5px;
+      cursor: pointer;
+}
+
+.img3{
+    display: flex;
+    align-items: center;
+}
+
+input{
+    display: none;
+}
+
+[id^=btn]:checked + ul{
+    display: block;
+
+}
+
+
+.hidden h1 {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.hidden p{
+    color: gray;
+    padding:  0px 30px;
+}
+
+.hidden span{
+    display: flex;
+}
+
+
+.hidden{
+    display: none;
+}
+
+.sidebar{
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.sidebar  li a{
+   color: rgb(7, 7, 7);
+   text-decoration: none;
+   font-size: 15px;
+}
+
+
+.sidebar li{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    background-color: white;
+    transition: 0.9s;
+    height: auto;
+    position: relative;
+    top:-900px;
+    font-weight: 100;
+ }
+ 
+
+#check{
+	display: no ne;
+}
+
+#btn5, #cancel{
+	left: 85%;
+	font-size: 25px;
+	position: absolute;
+	transform: translateY(-50%);
+	color: rgb(20, 19, 19);
+	cursor: pointer;
+}
+
+
+#check:checked ~ .sidebar li{
+	transform: translateY(900px);
+}
+
+
+
+label #cancel{
+	transition: all 0.5s ease;
+	opacity: 0;
+ }
+
+label #btn5{
+	transition: all 0.5s ease;
+	opacity: 1;
+}
+
+#check:checked ~ label #cancel{
+	opacity: 1;
+}
+
+ 
+#check:checked ~ label #btn5{
+	opacity: 0;
+}
+
+
+
+/*content*/
+
+
+.content{
+    padding: 25px;
+}
+
+.content h1{
+    font-size: 35px;
+    color: black;
+}
+
+.content span{
+    color:darkorange;
+}
+
+.content p{
+    color: gray;
+    padding: 10px 0px;
+}
+
+.content button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(2, 75, 2);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.content button a{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.span{
+    width: 100%;
+    font-size: 15px;
+    color: gray;
+}
+
+.span2{
+    padding: 60px 0px;
+    color: gray;
+    text-align: center;
+}
+
+.img2{
+    display: flex;
+    padding: 20px 0px;
+    width: 100%;
+}
+
+.img2 img{
+    width: 100%;
+}
+
+.hero{
+    display: none;
+}
+
+}
+
+
+
+@media screen and (min-width:760px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+       width: 100%;
+       background-color: rgb(197, 186, 186);
+    }
+    
+    .header{
+        padding: 35px;
+        height: 65px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+
+    
+    input{
+        display: none;
+    }
+    
+   #btn,#cancel{
+    display: none;
+   }
+    
+    
+   .hidden h1 {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.hidden p{
+    color: gray;
+    padding:  0px 30px;
+}
+
+.hidden span{
+    display: flex;
+}
+
+
+.hidden{
+    display: none;
+}
+
+.sidebar{
+    display: flex;
+    border-radius: 10px;
+    position: relative;
+}
+
+.sidebar  li a{
+   color: gray;
+   text-decoration: none;
+   font-size: 15px;
+}
+
+.sidebar li a label{
+    cursor: pointer;
+}
+
+.sidebar li:hover a{
+    color: black;
+}
+
+
+.sidebar li ul{
+    background-color: white;
+    padding: 10px;
+    height:350px;
+    width: 400px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+
+[id^=btn]:checked + ul{
+    display: block;
+    position: absolute;
+}
+
+/*.sidebar li:hover ul {
+    display:block;
+    background-color: white;
+    position: absolute;
+    margin-top: 30px;
+    border-radius: 10px;
+}*/
+
+.sidebar li a label span{
+    display: no ne;
+}
+
+
+
+.sidebar li{
+   display: flex;
+   padding:  10px 0px;
+   font-weight: 100;
+   margin: 0px 25px;
+}
+
+
+
+#btn5, #cancel{
+    display: none;
+}
+    
+#check{
+    display: none;
+}
+
+
+.first {
+    border: none;
+    background: transparent;
+    margin: 0px 15px; 
+}
+    
+.first a{
+    text-decoration: none;
+    color: gray;
+}
+
+.first a:hover{
+    color: black;
+}
+
+.button .second{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(2, 75, 2);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button .second:hover{
+    background-color: rgb(4, 114, 4);
+}
+
+.button .second a{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+
+
+/*content*/
+
+
+.content{
+    padding: 100px 35px;
+}
+
+.content h1{
+    font-size: 55px;
+    color: black;
+}
+
+.content span{
+    color:darkorange;
+}
+
+.content p{
+    color: gray;
+    padding: 30px 0px;
+    font-size: 20px;
+}
+
+.content button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(2, 75, 2);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.content button a{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.span{
+    width: 100%;
+    font-size: 15px;
+    color: gray;
+}
+
+.span2{
+    padding: 30px 0px;
+    color: gray;
+    text-align: center;
+    
+}
+
+.img2{
+    display: flex;
+    padding: 20px 0px;
+    width: 100%;
+    justify-content: center;
+}
+
+.img{
+    display: flex;
+}
+.img2 img{
+    width: 100%;
+}
+
+.content button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(2, 75, 2);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.content button:hover{
+    background-color: rgb(4, 114, 4);
+}
+
+.content button a{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.copy{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero{
+    width:400px;
+    
+}
+.hero img{
+    width: 100%;
+}
+
+.hero2{
+    width: 700px;
+}
+
+}
+

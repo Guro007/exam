@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+    background-image: url(images/example/kkk.png);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav{
+    background-color:rgb(200, 200, 200, 0.1);
+    padding: 50px;
+     height: 118px;
+     position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.button {
+    color: rgb(253, 229, 7);
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+
+.button span{
+    cursor: pointer;
+}
+
+
+
+[id^=btn]:checked + ul{
+    display: block;
+}
+ 
+
+.menu  li {
+    color: rgb(253, 229, 7);
+    text-decoration: none;
+    list-style: none;
+    padding: 20px 0px;
+    
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 40px; 
+    position: absolute;
+    text-align: center; 
+    cursor: pointer;
+    display: none;
+    background-color:rgb(225, 225, 225, 0.1);
+    margin: 50px 0px;
+}
+
+
+input{
+    display: none;
+}
