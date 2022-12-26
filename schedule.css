@@ -1,0 +1,1310 @@
+/*desktop*/
+
+
+@media screen and (min-width:860px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        width: 100%;
+        font-family:  sans-serif;
+    }
+
+
+    .container{
+        padding: 50px;
+    }
+
+    .header{
+        padding:80px;
+        height: 75px;
+        width: 100%;
+        display: flex;
+    }
+    
+    .header2{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    
+    #btn, #cancel{
+        display: none;
+    }
+
+    #check{
+        display: none;
+    }
+    
+    
+
+    .logo{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .logo a{
+        text-decoration: none;
+        color: rgb(17, 17, 107);
+    }
+   
+
+.sidebar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sidebar li:nth-child(1){
+    display: none;
+}
+
+.sidebar li:nth-child(2){
+    display: none;
+}
+
+.sidebar li{
+    list-style: none;
+}
+
+.sidebar li a{
+    text-decoration: none;
+    color: rgb(17, 17, 107);
+}
+
+
+.sidebar button{
+    background-color: rgb(30, 6, 139);
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+}
+
+
+
+.sidebar button a{
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+}
+    
+
+
+
+
+
+/*content*/
+
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.content2{
+    padding:  80px;
+    width: 100%;
+}
+
+.first{
+    width: 100%;
+}
+
+.first h1{
+    color: rgb(30, 6, 139);
+    font-weight: 600;
+}
+
+.first p{
+    padding: 5px 0px;
+    font-size: 13px;
+    color: rgb(67, 67, 116);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.span{
+   display: flex;
+   gap: 20px;
+   padding: 20px 0px;
+}
+
+.span button{
+    background-color: rgb(30, 6, 139);
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+}
+
+
+
+.span button a{
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+
+.span a{
+    color: rgb(73, 73, 73);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 15px 0px;
+}
+
+.mark{
+    padding: 10px 0px;
+    display: flex;
+    gap: 15px;
+}
+
+.mark img{
+    width: 15px;
+    margin-bottom: 15px;
+}
+
+.mark h3{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(67, 67, 116);
+}
+
+
+.mark h3 span{
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    font-weight: 600;
+}
+
+
+.content3{
+   background-color: rgb(58, 180, 250);
+   width: 100%;
+}
+
+.content3 img{
+    width:100%;
+    padding: 30px;
+}
+
+
+
+
+/*content4*/
+
+
+
+.content4{
+    padding: 80px;
+     display: flex;
+     justify-content: space-between;
+     
+}
+
+.heroes h1{
+    color: rgb(30, 6, 139);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+.img{
+    padding: 15px 0px;
+}
+.img img{
+    width: 35px;
+    height: 35px;
+}
+
+.heroes {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.heroes2 h4{
+    font-size: 20px;
+    color: gray;
+    font-weight: 100;
+}
+
+.h4{
+    padding: 15px 0px;
+}
+
+
+
+
+/*content5*/
+
+
+.content5{
+    background-color: rgb(169, 223, 255);
+    padding: 80px;
+    display: flex;
+    gap: 40px;
+}
+
+.text1 h5{
+    color: rgb(59, 59, 228);
+}
+
+.text1 h1{
+    color: rgb(21, 92, 92);
+    padding: 8px 0px;
+}
+
+
+.text1 p{
+    color: rgb(83, 83, 83);
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+
+.text1 button{
+    background-color: rgb(30, 6, 139);
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px 0px;
+    width: 130px;
+}
+
+
+
+.text1 button a{
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.text2 h5{
+    color: rgb(59, 59, 228);
+}
+
+.text2 h1{
+    color: rgb(21, 92, 92);
+    padding: 8px 0px;
+}
+
+
+.text2 p{
+    color: rgb(83, 83, 83);
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+.text2 h6{
+    padding: 15px 0px;
+    font-size: 15px;
+}
+
+.text2 h6 a{
+    color: rgb(73, 73, 73);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+
+/*footer*/
+
+
+.footer{
+    padding: 80px;
+}
+
+
+
+.flex{
+    display: flex;
+    gap: 40px;
+}
+
+
+.list2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list{
+    padding: 10px 0px;
+    display: flex;
+    gap: 40px;
+}
+
+.list li{
+    list-style: none;
+}
+
+.list span{
+    color: black;
+    font-weight: 600;
+}
+
+.flex ul li{
+    margin: 10px 0px;
+}
+
+.flex ul li a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 100;
+}
+
+
+ 
+
+.flex2 li{
+    list-style: none;
+    margin: 10px 0px;
+}
+
+.flex2 li a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 100;
+}
+
+
+
+ 
+
+.form h6{
+    font-weight: 600;
+    font-size: 15px; 
+}
+
+
+#input{
+    margin: 15px 0px;
+    height: 40px; 
+    width: 230px
+}
+
+
+input[type="email"]{
+    padding: 0 12px;
+} 
+
+
+.form button{
+    background-color: rgb(30, 6, 139);
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    left: 13%;
+    top:20px;
+     
+}
+
+
+
+.form button a{
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+}
+
+}
+
+
+
+
+
+
+
+
+/*tablet*/
+
+
+@media screen and (min-width:414px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        width: 100%;
+        font-family:  sans-serif;
+    }
+
+
+    .header{
+        padding:20px;
+        height: 75px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .header2{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    
+    #btn, #cancel{
+        display: none;
+    }
+
+    #check{
+        display: none;
+    }
+    
+
+
+    
+    .logo{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .logo a{
+        text-decoration: none;
+        color: rgb(17, 17, 107);
+    }
+
+    .sidebar li:nth-child(1){
+        display: none;
+    }
+    
+    .sidebar li:nth-child(2){
+        display: none;
+    }    
+
+.sidebar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sidebar li{
+    list-style: none;
+}
+
+.sidebar li a{
+    text-decoration: none;
+    color: rgb(17, 17, 107);
+}
+
+
+.sidebar button{
+    background-color: rgb(30, 6, 139);
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+}
+
+
+
+.sidebar button a{
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+}
+    
+
+
+
+
+
+/*content*/
+
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content2{
+    padding: 30px 20px;
+    width: 100%;
+}
+
+.first{
+    width: 100%;
+}
+
+.first h1{
+    color: rgb(30, 6, 139);
+    font-weight: 600;
+}
+
+.first p{
+    padding: 5px 0px;
+    font-size: 13px;
+    color: rgb(67, 67, 116);
+    font-weight: 400;
+}
+
+
+.span{
+   display: grid;
+    padding: 15px 0px;
+}
+
+.span button{
+    background-color: rgb(30, 6, 139);
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+}
+
+
+
+.span button a{
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+
+.span a{
+    color: rgb(73, 73, 73);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 15px 0px;
+}
+
+.mark{
+    padding: 20px 0px;
+    display: flex;
+    gap: 15px;
+}
+
+.mark img{
+    width: 15px;
+    margin-bottom: 15px;
+}
+
+.mark h3{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(67, 67, 116);
+}
+
+
+.mark h3 span{
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    font-weight: 600;
+}
+
+
+.content3{
+   background-color: rgb(58, 180, 250);
+   width: 100%;
+}
+
+.content3 img{
+    width:100%;
+    padding: 30px;
+}
+
+
+
+
+/*content4*/
+
+
+
+.content4{
+    padding: 20px;
+     
+}
+
+.heroes h1{
+    color: rgb(30, 6, 139);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.img{
+    padding: 15px 0px;
+}
+.img img{
+    width: 25px;
+    height: 25px;
+}
+
+.heroes {
+    display: flex;
+    align-items: center;
+}
+
+
+.heroes2 h4{
+    font-size: 13px;
+    color: gray;
+    font-weight: 100;
+}
+
+.h4{
+    padding: 15px 0px;
+}
+
+
+
+
+/*content5*/
+
+
+.content5{
+    background-color: rgb(169, 223, 255);
+    padding: 20px;
+     
+}
+
+.text1 h5{
+    color: rgb(59, 59, 228);
+}
+
+.text1 h1{
+    color: rgb(21, 92, 92);
+    padding: 8px 0px;
+}
+
+
+.text1 p{
+    color: rgb(83, 83, 83);
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+
+.text1 button{
+    background-color: rgb(30, 6, 139);
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px 0px;
+    width: 130px;
+}
+
+
+
+.text1 button a{
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.text2 h5{
+    color: rgb(59, 59, 228);
+}
+
+.text2 h1{
+    color: rgb(21, 92, 92);
+    padding: 8px 0px;
+}
+
+
+.text2 p{
+    color: rgb(83, 83, 83);
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+.text2 h6{
+    padding: 15px 0px;
+    font-size: 15px;
+}
+
+.text2 h6 a{
+    color: rgb(73, 73, 73);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+
+/*footer*/
+
+
+.footer{
+    padding: 20px;
+}
+
+
+
+.flex{
+    display: flex;
+    gap: 40px;
+}
+
+
+.list{
+    padding: 10px 0px;
+    display: flex;
+    gap: 40px;
+}
+
+.list li{
+    list-style: none;
+}
+
+.list span{
+    color: black;
+    font-weight: 600;
+}
+
+.flex ul li{
+    margin: 10px 0px;
+}
+
+.flex ul li a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 100;
+}
+
+
+ 
+
+.flex2 li{
+    list-style: none;
+    margin: 10px 0px;
+}
+
+.flex2 li a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 100;
+}
+
+
+
+ 
+
+.form h6{
+    font-weight: 600;
+    font-size: 15px; 
+}
+
+
+#input{
+    margin: 15px 0px;
+    height: 40px; 
+    width: 230px
+}
+
+
+input[type="email"]{
+    padding: 0 12px;
+} 
+
+
+.form button{
+    background-color: rgb(30, 6, 139);
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    left: 13%;
+    top:20px;
+     
+}
+
+
+
+.form button a{
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+}
+
+}
+
+
+
+
+
+
+/*mobile*/
+
+
+@media screen and (max-width:414px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        width: 100%;
+        font-family:  sans-serif;
+    }
+
+
+    .header{
+        padding:20px;
+        height: 75px;
+        width: 100%;
+    }
+    
+    .header2{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    
+    #btn, #cancel{
+        left: 85%;
+        font-size: 20px;
+        position: absolute;
+        transform: translateY(-50%);
+        color: rgb(30, 6, 139);
+        cursor: pointer;
+    }
+    
+    
+   
+
+.sidebar button{
+    background-color: rgb(30, 6, 139);
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+.sidebar li button a{
+    color: white;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.sidebar button span{
+    color: gray;
+    font-weight: 100;
+}
+
+   .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   }
+
+   .logo a{
+    display: none;
+   }
+
+
+   .button{
+    display: none;
+   }
+
+   .header3 a {
+    display: none;
+   }
+   
+    
+    .sidebar{
+        margin: 20px 0px;
+        overflow: hidden;
+        border-radius: 10px;
+        position: relative;
+        z-index: 11;
+    }
+    
+    .sidebar  li a{
+       color: rgb(24, 4, 134);
+       text-decoration: none;
+       font-size: 15px;
+       font-weight: 600;
+    }
+    
+    
+    .sidebar li{
+       align-items: center;
+       display: flex;
+       flex-direction: column;
+       padding: 20px 0px;
+       background: rgb(169, 223, 255);
+       transition: 1s;
+       height: auto;
+       position: relative;
+       top:-900px;
+       font-weight: 100;
+    }
+    
+    
+    #check{
+        display: none;
+    }
+    
+    
+    #check:checked ~ .sidebar li{
+        transform: translateY(900px);
+    }
+    
+    
+    
+    label #cancel{
+        transition: all 0.9s ease;
+        opacity: 0;
+     }
+    
+    label #btn{
+        transition: all 0.9s ease;
+        opacity: 1;
+    }
+    
+    #check:checked ~ label #cancel{
+        opacity: 1;
+    }
+    
+     
+    #check:checked ~ label #btn{
+        opacity: 0;
+    }
+
+
+
+
+    /*content*/
+
+
+    .content2{
+        padding: 0px 20px;
+    }
+
+    .first h1{
+        color: rgb(30, 6, 139);
+        font-weight: 600;
+    }
+
+    .first p{
+        padding: 5px 0px;
+        font-size: 13px;
+        color: rgb(67, 67, 116);
+        font-weight: 400;
+    }
+
+
+    .span{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 0px;
+    }
+
+    .span button{
+        background-color: rgb(30, 6, 139);
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        width: 130px;
+    }
+    
+    
+    
+    .span button a{
+        color: white;
+        font-weight: 600;
+        padding: 10px;
+        text-decoration: none;
+    }
+    
+    
+
+    .span a{
+        color: rgb(73, 73, 73);
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .mark{
+        padding: 20px 0px;
+        display: flex;
+        gap: 15px;
+    }
+
+    .mark img{
+        width: 15px;
+        margin-bottom: 15px;
+    }
+
+    .mark h3{
+        font-size: 15px;
+        font-weight: 400;
+        color: rgb(67, 67, 116);
+    }
+
+
+    .mark h3 span{
+        text-decoration-line: underline;
+        text-decoration-thickness: 2px;
+        font-weight: 600;
+    }
+
+
+    .content3{
+       background-color: rgb(58, 180, 250);
+    }
+
+    .content3 img{
+        width: 100%;
+        padding: 30px;
+    }
+
+
+
+    /*content4*/
+
+
+
+    .content4{
+        padding: 20px;
+    }
+
+    .heroes h1{
+        color: rgb(30, 6, 139);
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+
+    .img{
+        padding: 15px 0px;
+    }
+    .img img{
+        width: 25px;
+        height: 25px;
+    }
+
+
+    .heroes2 h4{
+        font-size: 13px;
+        color: gray;
+        font-weight: 100;
+    }
+
+    .h4{
+        padding: 15px 0px;
+    }
+
+
+
+    /*content5*/
+
+
+    .content5{
+        background-color: rgb(169, 223, 255);
+        padding: 20px;
+    }
+
+    .text1 h5{
+        color: rgb(59, 59, 228);
+    }
+
+    .text1 h1{
+        color: rgb(21, 92, 92);
+        padding: 8px 0px;
+    }
+
+
+    .text1 p{
+        color: rgb(83, 83, 83);
+        font-size: 15px;
+        font-weight: 100;
+    }
+
+
+
+    .text1 button{
+        background-color: rgb(30, 6, 139);
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        margin: 15px 0px;
+        width: 130px;
+    }
+    
+    
+    
+    .text1 button a{
+        color: white;
+        font-weight: 600;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+
+
+    .text2{
+        padding: 40px 0px;
+    }
+
+
+    .text2 h5{
+        color: rgb(59, 59, 228);
+    }
+
+    .text2 h1{
+        color: rgb(21, 92, 92);
+        padding: 8px 0px;
+    }
+
+
+    .text2 p{
+        color: rgb(83, 83, 83);
+        font-size: 15px;
+        font-weight: 100;
+    }
+
+
+    .text2 h6{
+        padding: 15px 0px;
+        font-size: 15px;
+    }
+
+    .text2 h6 a{
+        color: rgb(73, 73, 73);
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+
+
+    /*footer*/
+
+
+    .footer{
+        padding: 20px;
+    }
+
+
+    .flex{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+    .list{
+        padding: 10px 0px;
+        display: flex;
+        gap: 50px;
+    }
+
+    .list li{
+        list-style: none;
+    }
+
+    .list span{
+        color: black;
+        font-weight: 600;
+    }
+
+    .flex ul li{
+        margin: 10px 0px;
+    }
+
+    .flex ul li a{
+        text-decoration: none;
+        color: gray;
+        font-weight: 100;
+    }
+
+
+     
+
+    .flex2 li{
+        list-style: none;
+        margin: 10px 0px;
+    }
+
+    .flex2 li a{
+        text-decoration: none;
+        color: gray;
+        font-weight: 100;
+    }
+
+
+     
+
+    .form h6{
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+
+    #input{
+        margin: 15px 0px;
+        height: 40px; 
+        width: 230px
+    }
+    
+    
+    input[type="email"]{
+        padding: 0 12px;
+    } 
+    
+    
+    .form button{
+        background-color: rgb(30, 6, 139);
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        left: 13%;
+        top:20px;
+         
+    }
+    
+    
+    
+    .form button a{
+        color: white;
+        font-weight: 600;
+        padding: 10px;
+        text-decoration: none;
+    }
+}
+
+
+
